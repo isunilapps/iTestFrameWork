@@ -1,0 +1,16 @@
+PODS:
+  - iTestFramework (0.1.0)
+
+DEPENDENCIES:
+  - iTestFramework (from `../`)
+
+EXTERNAL SOURCES:
+  iTestFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iTestFramework: b72fef1e2e005ac3188bc07646e13d9b69cb7b2f
+
+PODFILE CHECKSUM: 97a35b649ae7fc7111a95f8536833dfcd3ef0514
+
+COCOAPODS: 1.4.0.rc.1
