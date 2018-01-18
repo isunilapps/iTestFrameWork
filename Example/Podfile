@@ -1,0 +1,6 @@
+use_frameworks!
+target 'iTestFramework_Tests' do
+  pod 'iTestFramework', :path => '../'
+  
+  
+end
