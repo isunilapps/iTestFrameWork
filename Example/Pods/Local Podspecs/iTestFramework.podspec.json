@@ -1,9 +1,9 @@
 {
   "name": "iTestFramework",
-  "version": "0.1.0",
-  "summary": "A short description of iTestFramework.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/isunilapps/iTestFramework",
+  "version": "0.0.4",
+  "summary": "This is simple iOS Test Framework. Created to explore cocapods public libraries usage",
+  "description": "Simple to use\n1. Add pod 'iTestFramework' in your pod file and save it\n2. Goto terminal, cd your_project_folder_containing_podfile\n3. pod install",
+  "homepage": "https://github.com/isunilapps",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/isunilapps/iTestFramework.git",
-    "tag": "0.1.0"
+    "tag": "0.0.4"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
   "source_files": "iTestFramework/Classes/**/*"
 }
