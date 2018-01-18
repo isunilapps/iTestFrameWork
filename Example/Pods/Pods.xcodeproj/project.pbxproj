@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		100D26D42010C2EB00E54E4D /* iTestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D26D32010C2EB00E54E4D /* iTestFramework.swift */; };
-		100D26D52010C2EB00E54E4D /* iTestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D26D32010C2EB00E54E4D /* iTestFramework.swift */; };
+		10A2E47F2010C5D200104F27 /* iTestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2E47E2010C5D200104F27 /* iTestFramework.swift */; };
 		10E883BF0E3DDF57FFD2DA0C0CD96EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4ECBDBBB3F45704CCE82357E62482626 /* iTestFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D338033D91E0B763DD7C37CCBE97B1DD /* iTestFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C127268890420CA31735C05ACC3B845C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBC5F83E92D1336BBBDA3CA8606FDC9 /* ReplaceMe.swift */; };
@@ -29,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		100D26D32010C2EB00E54E4D /* iTestFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTestFramework.swift; sourceTree = "<group>"; };
+		10A2E47E2010C5D200104F27 /* iTestFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTestFramework.swift; sourceTree = "<group>"; };
 		1472D5A4239E987C1C65BE825C27B833 /* iTestFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iTestFramework-dummy.m"; sourceTree = "<group>"; };
 		2360D9FA4B6E3758D22DDE54033E0805 /* Pods-iTestFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTestFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		28B46565044EBD2BADB972902C9AB3A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -141,8 +140,8 @@
 		DEE7DDCE068394A33A68653ED874F098 /* iTestFramework */ = {
 			isa = PBXGroup;
 			children = (
+				10A2E47E2010C5D200104F27 /* iTestFramework.swift */,
 				FFBC5F83E92D1336BBBDA3CA8606FDC9 /* ReplaceMe.swift */,
-				100D26D32010C2EB00E54E4D /* iTestFramework.swift */,
 				20B1C518EE2146F2D7DE84F505C37636 /* Pod */,
 				F586EF4337CF0CFA2FEC5BEA282E73E3 /* Support Files */,
 			);
@@ -278,7 +277,7 @@
 			files = (
 				EBE4EC2DD9FCA1CFA014FBD206864D7C /* iTestFramework-dummy.m in Sources */,
 				C127268890420CA31735C05ACC3B845C /* ReplaceMe.swift in Sources */,
-				100D26D42010C2EB00E54E4D /* iTestFramework.swift in Sources */,
+				10A2E47F2010C5D200104F27 /* iTestFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100D26D52010C2EB00E54E4D /* iTestFramework.swift in Sources */,
 				EC8B10A9C266664EF7CBBEE832E1A3BA /* Pods-iTestFramework_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
