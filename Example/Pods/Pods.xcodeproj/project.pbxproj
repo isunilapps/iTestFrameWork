@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10A2E47F2010C5D200104F27 /* iTestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2E47E2010C5D200104F27 /* iTestFramework.swift */; };
 		10E883BF0E3DDF57FFD2DA0C0CD96EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4ECBDBBB3F45704CCE82357E62482626 /* iTestFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D338033D91E0B763DD7C37CCBE97B1DD /* iTestFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C127268890420CA31735C05ACC3B845C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBC5F83E92D1336BBBDA3CA8606FDC9 /* ReplaceMe.swift */; };
+		C127268890420CA31735C05ACC3B845C /* iTestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBC5F83E92D1336BBBDA3CA8606FDC9 /* iTestFramework.swift */; };
 		C65D597AD3DCB221CF80D19F51FE62F8 /* Pods-iTestFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2360D9FA4B6E3758D22DDE54033E0805 /* Pods-iTestFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CABE3409374465E81592DA0A63489ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EBE4EC2DD9FCA1CFA014FBD206864D7C /* iTestFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472D5A4239E987C1C65BE825C27B833 /* iTestFramework-dummy.m */; };
@@ -28,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10A2E47E2010C5D200104F27 /* iTestFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTestFramework.swift; sourceTree = "<group>"; };
 		1472D5A4239E987C1C65BE825C27B833 /* iTestFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iTestFramework-dummy.m"; sourceTree = "<group>"; };
 		2360D9FA4B6E3758D22DDE54033E0805 /* Pods-iTestFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTestFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		28B46565044EBD2BADB972902C9AB3A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,7 +50,7 @@
 		EB5D6B234D348AADE649A02155AFEA0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F34BBCE778B1D0B0473A3AA45504CF8A /* iTestFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = iTestFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC65009D40E6F4896E594FC21CB2DA1F /* Pods-iTestFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTestFramework_Tests-resources.sh"; sourceTree = "<group>"; };
-		FFBC5F83E92D1336BBBDA3CA8606FDC9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = iTestFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		FFBC5F83E92D1336BBBDA3CA8606FDC9 /* iTestFramework.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iTestFramework.swift; path = iTestFramework/Classes/iTestFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +138,7 @@
 		DEE7DDCE068394A33A68653ED874F098 /* iTestFramework */ = {
 			isa = PBXGroup;
 			children = (
-				10A2E47E2010C5D200104F27 /* iTestFramework.swift */,
-				FFBC5F83E92D1336BBBDA3CA8606FDC9 /* ReplaceMe.swift */,
+				FFBC5F83E92D1336BBBDA3CA8606FDC9 /* iTestFramework.swift */,
 				20B1C518EE2146F2D7DE84F505C37636 /* Pod */,
 				F586EF4337CF0CFA2FEC5BEA282E73E3 /* Support Files */,
 			);
@@ -276,8 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBE4EC2DD9FCA1CFA014FBD206864D7C /* iTestFramework-dummy.m in Sources */,
-				C127268890420CA31735C05ACC3B845C /* ReplaceMe.swift in Sources */,
-				10A2E47F2010C5D200104F27 /* iTestFramework.swift in Sources */,
+				C127268890420CA31735C05ACC3B845C /* iTestFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
