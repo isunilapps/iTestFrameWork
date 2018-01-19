@@ -9,11 +9,10 @@
 import UIKit
 
 open protocol SampleTestDelegate {
-    func instanceMethod() -> String
-    func classMethod() -> String
+    func delegateMethod01() -> String
 }
 
-open public class TestClassA: NSObject, SampleTestDelegate {
+open class TestClassA: NSObject, SampleTestDelegate {
     
     static let shared = TestClassA()
     public var delegate : SampleTestDelegate?
@@ -25,13 +24,10 @@ open public class TestClassA: NSObject, SampleTestDelegate {
         delegate = self
     }
     
-    func instanceMethod() -> String {
-        return "Instance Method"
+    public func delegateMethod01() -> String {
+        return "delegate Method 01"
     }
     
-    func classMethod() -> String {
-        return "Class Method"
-    }
     
     public class func classMethod(print aString: String) {
         print("classMethod: \(aString)")
