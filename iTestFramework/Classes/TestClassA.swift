@@ -8,15 +8,15 @@
 
 import UIKit
 
-protocol SampleTestDelegate {
-    func instanceMethod() -> String
-    func classMethod() -> String
+open protocol SampleTestDelegate {
+    public func instanceMethod() -> String
+    public func classMethod() -> String
 }
 
-class TestClassA: NSObject, SampleTestDelegate {
+open public class TestClassA: NSObject, SampleTestDelegate {
     
     static let shared = TestClassA()
-    var delegate : SampleTestDelegate?
+    public var delegate : SampleTestDelegate?
     
     
     override init() {
@@ -33,7 +33,7 @@ class TestClassA: NSObject, SampleTestDelegate {
         return "Class Method"
     }
     
-    class func classMethod(print aString: String) {
+    public class func classMethod(print aString: String) {
         print("classMethod: \(aString)")
     }
     
