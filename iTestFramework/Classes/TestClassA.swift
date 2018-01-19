@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol SampleTestDelegate {
+ public protocol SampleTestDelegate {
     func delegateMethod01() -> String
 }
 
