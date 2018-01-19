@@ -1,5 +1,5 @@
 PODS:
-  - iTestFramework (0.0.4)
+  - iTestFramework (0.0.5)
 
 DEPENDENCIES:
   - iTestFramework (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  iTestFramework: c553ac8d667446a59b8283b1f75d4e60125a18af
+  iTestFramework: b95c2cb35ff4c33dd6da51eab84521e8d9d679cc
 
 PODFILE CHECKSUM: 97a35b649ae7fc7111a95f8536833dfcd3ef0514
 

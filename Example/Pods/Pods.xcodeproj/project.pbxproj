@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		10E883BF0E3DDF57FFD2DA0C0CD96EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4ECBDBBB3F45704CCE82357E62482626 /* iTestFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A89BD50338C4EC802CCC4479FBB135A5 /* iTestFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A904200A8934C028A31A842107E41A17 /* iTestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FA31E2A3B48A0A642DFB2BD88075 /* iTestFramework.swift */; };
+		4ECBDBBB3F45704CCE82357E62482626 /* iTestFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4DEEF6B28B6F2771C47F87CA1D5187 /* iTestFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C704331249E5A5CCF0F6E12C9803491 /* TestClassA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99553D13C95762FD0806D487EC6402A4 /* TestClassA.swift */; };
+		672538F87D3FF07E67B277ED31244A10 /* iTestFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 327C092C2342CFCA32E8B4473444D219 /* iTestFramework-dummy.m */; };
 		C65D597AD3DCB221CF80D19F51FE62F8 /* Pods-iTestFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2360D9FA4B6E3758D22DDE54033E0805 /* Pods-iTestFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9BF6347CFC798FE8F1E44CE1A26BF56 /* iTestFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDFAADE1906A05063450177D7E8CC67 /* iTestFramework-dummy.m */; };
 		CABE3409374465E81592DA0A63489ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EC8B10A9C266664EF7CBBEE832E1A3BA /* Pods-iTestFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D9CA351BC4D1E1DB07C5348FA2E072 /* Pods-iTestFramework_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -27,29 +27,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A143A1F598BDC2E5E7FDBC973F514CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2360D9FA4B6E3758D22DDE54033E0805 /* Pods-iTestFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTestFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3010FA31E2A3B48A0A642DFB2BD88075 /* iTestFramework.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iTestFramework.swift; path = iTestFramework/Classes/iTestFramework.swift; sourceTree = "<group>"; };
+		307EF507AED0D99AFA951B023535C324 /* iTestFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = iTestFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		327C092C2342CFCA32E8B4473444D219 /* iTestFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iTestFramework-dummy.m"; sourceTree = "<group>"; };
 		33E266C3466EC9C822AADCA8A13CA27F /* Pods_iTestFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iTestFramework_Tests.framework; path = "Pods-iTestFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42845CE63D47E9F91415DB90C25A86CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		52DFA6C59B12E6434B2C4CEB38795194 /* iTestFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iTestFramework-prefix.pch"; sourceTree = "<group>"; };
+		3EA2D02AC7D1FDE4510082A94A5E3594 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4B7803D03BEA3F7C7CF3EAD16716D5D5 /* iTestFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iTestFramework-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67D9CA351BC4D1E1DB07C5348FA2E072 /* Pods-iTestFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTestFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		6DF3489CCD9DC4050D059486C2E88737 /* Pods-iTestFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTestFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		700F0CC6A74D505960A64B45830F8CDA /* iTestFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iTestFramework.modulemap; sourceTree = "<group>"; };
+		7D054F17E5CB83D89C6034A0EA5FF92C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B82F2112BF6934867E51863B84854F /* Pods-iTestFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTestFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		89FE6A5D379826A51AE687278E48F4AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8E6FE3E71C33BCE04C6C991B393EB7B3 /* iTestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iTestFramework.framework; path = iTestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A89BD50338C4EC802CCC4479FBB135A5 /* iTestFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iTestFramework-umbrella.h"; sourceTree = "<group>"; };
+		99553D13C95762FD0806D487EC6402A4 /* TestClassA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestClassA.swift; path = iTestFramework/Classes/TestClassA.swift; sourceTree = "<group>"; };
+		9D5A16109F8652B58D12A09072510840 /* iTestFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iTestFramework.xcconfig; sourceTree = "<group>"; };
 		A98CBB22BC184C592FD4B3EEB814514A /* Pods-iTestFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTestFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B106A407DE750A5FFD20788C375BF693 /* iTestFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = iTestFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B81B3F94C185A06971F3281FE095FFEF /* Pods-iTestFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTestFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA53478241AFCCAF6226FE8F6430CE2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BB1BD1219917EF2D2C4512D926E58CEF /* Pods-iTestFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTestFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CB098EEAA2708E9FE74422876B7016AE /* iTestFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iTestFramework.xcconfig; sourceTree = "<group>"; };
 		E1F12F1A2844AA943C4BC92FD0FE75D8 /* Pods-iTestFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iTestFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		EB5D6B234D348AADE649A02155AFEA0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBDFAADE1906A05063450177D7E8CC67 /* iTestFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iTestFramework-dummy.m"; sourceTree = "<group>"; };
+		EF4DEEF6B28B6F2771C47F87CA1D5187 /* iTestFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iTestFramework-umbrella.h"; sourceTree = "<group>"; };
+		F3EB580247E7E6401A8969A75E8B3B68 /* iTestFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iTestFramework.modulemap; sourceTree = "<group>"; };
 		FC65009D40E6F4896E594FC21CB2DA1F /* Pods-iTestFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTestFramework_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,20 +73,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14A30DAB4539296FA2DE80A421ADD23F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A143A1F598BDC2E5E7FDBC973F514CC /* Info.plist */,
-				700F0CC6A74D505960A64B45830F8CDA /* iTestFramework.modulemap */,
-				CB098EEAA2708E9FE74422876B7016AE /* iTestFramework.xcconfig */,
-				EBDFAADE1906A05063450177D7E8CC67 /* iTestFramework-dummy.m */,
-				52DFA6C59B12E6434B2C4CEB38795194 /* iTestFramework-prefix.pch */,
-				A89BD50338C4EC802CCC4479FBB135A5 /* iTestFramework-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/iTestFramework";
-			sourceTree = "<group>";
-		};
 		1BF91B9EB5F469EA7DC69F04ABB868B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +85,23 @@
 		1E759241905033A72C3C9563C23FF5AA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A9A10CF376395935BA1D0DE8404B90FE /* iTestFramework */,
+				87B0A77EBA95CE42E6D7EED97249C6AB /* iTestFramework */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		22BCD7FEC54C56EA67C1FA4FA2B282DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D054F17E5CB83D89C6034A0EA5FF92C /* Info.plist */,
+				F3EB580247E7E6401A8969A75E8B3B68 /* iTestFramework.modulemap */,
+				9D5A16109F8652B58D12A09072510840 /* iTestFramework.xcconfig */,
+				327C092C2342CFCA32E8B4473444D219 /* iTestFramework-dummy.m */,
+				4B7803D03BEA3F7C7CF3EAD16716D5D5 /* iTestFramework-prefix.pch */,
+				EF4DEEF6B28B6F2771C47F87CA1D5187 /* iTestFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iTestFramework";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -115,6 +115,17 @@
 			);
 			sourceTree = "<group>";
 		};
+		87B0A77EBA95CE42E6D7EED97249C6AB /* iTestFramework */ = {
+			isa = PBXGroup;
+			children = (
+				99553D13C95762FD0806D487EC6402A4 /* TestClassA.swift */,
+				B7B8538F50F67504CD97DFC6EDFC79B6 /* Pod */,
+				22BCD7FEC54C56EA67C1FA4FA2B282DE /* Support Files */,
+			);
+			name = iTestFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		968A96D34B55249185E0C69F2C5A4E60 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,25 +134,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A5723DCFD9B44CA4152A3C191FAA6739 /* Pod */ = {
+		B7B8538F50F67504CD97DFC6EDFC79B6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B106A407DE750A5FFD20788C375BF693 /* iTestFramework.podspec */,
-				42845CE63D47E9F91415DB90C25A86CB /* LICENSE */,
-				89FE6A5D379826A51AE687278E48F4AF /* README.md */,
+				307EF507AED0D99AFA951B023535C324 /* iTestFramework.podspec */,
+				3EA2D02AC7D1FDE4510082A94A5E3594 /* LICENSE */,
+				BA53478241AFCCAF6226FE8F6430CE2D /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		A9A10CF376395935BA1D0DE8404B90FE /* iTestFramework */ = {
-			isa = PBXGroup;
-			children = (
-				3010FA31E2A3B48A0A642DFB2BD88075 /* iTestFramework.swift */,
-				A5723DCFD9B44CA4152A3C191FAA6739 /* Pod */,
-				14A30DAB4539296FA2DE80A421ADD23F /* Support Files */,
-			);
-			name = iTestFramework;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -222,7 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43C9004BC749D76993E9A44E04ADDBB2 /* Build configuration list for PBXNativeTarget "iTestFramework" */;
 			buildPhases = (
-				C6BA2DE88DA4149B383D0BE572200FBC /* Sources */,
+				7FEB047F1DF44BF4BA81071E8284E97D /* Sources */,
 				92B82B7A4F16EF755A789FF826B84599 /* Frameworks */,
 				581ADCC7AF1DA8663558F5D10039A1F6 /* Headers */,
 			);
@@ -271,12 +271,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6BA2DE88DA4149B383D0BE572200FBC /* Sources */ = {
+		7FEB047F1DF44BF4BA81071E8284E97D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9BF6347CFC798FE8F1E44CE1A26BF56 /* iTestFramework-dummy.m in Sources */,
-				A904200A8934C028A31A842107E41A17 /* iTestFramework.swift in Sources */,
+				672538F87D3FF07E67B277ED31244A10 /* iTestFramework-dummy.m in Sources */,
+				5C704331249E5A5CCF0F6E12C9803491 /* TestClassA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +477,7 @@
 		};
 		D2F6BFD58D21231FF761FAFEA4283037 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB098EEAA2708E9FE74422876B7016AE /* iTestFramework.xcconfig */;
+			baseConfigurationReference = 9D5A16109F8652B58D12A09072510840 /* iTestFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -508,7 +508,7 @@
 		};
 		EB74BB87B0B2A3B407D69FC5A0F6C51A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB098EEAA2708E9FE74422876B7016AE /* iTestFramework.xcconfig */;
+			baseConfigurationReference = 9D5A16109F8652B58D12A09072510840 /* iTestFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

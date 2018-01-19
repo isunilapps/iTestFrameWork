@@ -13,12 +13,16 @@ protocol SampleTestDelegate {
     func classMethod() -> String
 }
 
-class iTestFramework: NSObject, SampleTestDelegate {
+class TestClassA: NSObject, SampleTestDelegate {
     
-    static let shared = iTestFramework()
+    static let shared = TestClassA()
+    var delegate : SampleTestDelegate?
+    
     
     override init() {
         super.init()
+        
+        delegate = self
     }
     
     func instanceMethod() -> String {
@@ -27,6 +31,10 @@ class iTestFramework: NSObject, SampleTestDelegate {
     
     func classMethod() -> String {
         return "Class Method"
+    }
+    
+    class func classMethod(print aString: String) {
+        print("classMethod: \(aString)")
     }
     
 }
