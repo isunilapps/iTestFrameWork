@@ -9,8 +9,8 @@
 import UIKit
 
 open protocol SampleTestDelegate {
-    public func instanceMethod() -> String
-    public func classMethod() -> String
+    func instanceMethod() -> String
+    func classMethod() -> String
 }
 
 open public class TestClassA: NSObject, SampleTestDelegate {

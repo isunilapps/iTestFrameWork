@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iTestFramework'
-  s.version          = '0.0.8'
+  s.version          = '0.0.9'
   s.summary          = 'This is simple iOS Test Framework. Created to explore cocapods public libraries usage'
 
 # This description is used to generate tags and improve search results.
